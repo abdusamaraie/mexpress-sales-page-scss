@@ -21,6 +21,11 @@ body {
     height: 100%;
     background: rgba(50, 146, 166, 0.8); }
 
+.header-info {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
+
 @media (max-width: 768px) {
   #showcase {
     min-height: 500px; }
