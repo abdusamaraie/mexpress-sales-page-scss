@@ -2,7 +2,7 @@ $primary: #3292a6;
 $primary-overlay: rgba(50, 146, 166, 0.8);
 
 body {
-  margin-top: 100px;
+  margin-top: 105px;
 }
 
 .navbar {
@@ -12,5 +12,19 @@ body {
   .navbar-item {
     font-size: 1.4rem;
     padding-right: 1.4rem;
+  }
+}
+
+#showcase {
+  background: url("../img/mountains.jpg");
+  position: relative;
+  min-height: 600px;
+  .primary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: $primary-overlay;
   }
 }
