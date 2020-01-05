@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
+  <body id="home" data-spy="scroll" data-target="#main-nav">
     <!-- START HERE -->
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
       <div class="container">
         <a href="#home" class="navbar-brand">
           <img src="img/mlogo.png" width="50" height="50" alt="" />
@@ -251,7 +251,7 @@
     </section>
 
     <!-- Authers Section -->
-    <section id="authers" class="my-5 text-center">
+    <section id="authors" class="my-5 text-center">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -455,7 +455,19 @@
       </div>
     </section>
     <!-- Footer -->
-    
+    <footer id="main-footer" class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-6 ml-auto">
+            <p class="lead">Copyright &copy;
+              <span id="year"></span>
+            </p>
+           
+            
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
